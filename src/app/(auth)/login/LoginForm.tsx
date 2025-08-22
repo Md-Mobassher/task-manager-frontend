@@ -70,6 +70,7 @@ const LoginForm = () => {
               user: decodedToken,
               acesstoken: accessToken,
               refreshtoken: refreshToken,
+              userName: null,
             })
           );
 
@@ -86,6 +87,7 @@ const LoginForm = () => {
               user: decodedToken,
               acesstoken: accessToken,
               refreshtoken: refreshToken,
+              userName: null,
             })
           );
 

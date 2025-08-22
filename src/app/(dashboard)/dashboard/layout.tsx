@@ -18,7 +18,7 @@ const DashboardLayout = ({ children }: { children: React.ReactNode }) => {
 
   return (
     <main
-      className="flex justify-stretch flex-grow bg-gradient-to-r from-[#FFEFF5] to-[#f3f7f6] text-black 
+      className="flex justify-stretch flex-grow bg-gray-100 dark:bg-gray-900 text-black 
     "
     >
       {/* Dashboard Toggle Button - Only visible on mobile */}
@@ -34,7 +34,7 @@ const DashboardLayout = ({ children }: { children: React.ReactNode }) => {
         onClose={() => setIsSidebarOpen(false)}
       />
 
-      <div className="w-full bg-gradient-to-r from-blue-100 to-[#f3f7f6] text-background px-4 md:px-6 lg:px-5 py-5">
+      <div className="w-full bg-gray-100 dark:bg-gray-900 text-background px-4 md:px-6 lg:px-5 py-5">
         {children}
       </div>
     </main>

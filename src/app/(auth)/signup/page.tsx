@@ -15,13 +15,13 @@ export default function RegistrationPage() {
       <div className="flex justify-between items-center gap-8  rounded-lg p-2 mb-4">
         <Link
           href="/login"
-          className="text-xl w-full px-5 py-2 hover:bg-white font-semibold  text-center rounded-lg"
+          className="text-xl w-full px-5 py-2 hover:bg-primary text-white font-semibold  text-center rounded-lg"
         >
           Login
         </Link>
         <Link
           href="/signup"
-          className="text-xl w-full px-5 py-2 bg-white font-semibold  text-center rounded-lg"
+          className="text-xl w-full px-5 py-2 bg-primary text-white font-semibold  text-center rounded-lg"
         >
           Sign Up
         </Link>

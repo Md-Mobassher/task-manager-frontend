@@ -2,7 +2,21 @@
 
 ## Deployment
 
-- **Live Link**: [Live server link]()
+- **Live Link**: [Live server link](https://task-management-frontend-4eu6176su.vercel.app)
+
+## Login Credential
+
+- Email
+
+```
+mdmobassherhossain1@gmail.com
+```
+
+- Password
+
+```
+123456
+```
 
 ## Technologies Used
 
@@ -74,7 +88,7 @@ Contributions are welcome! If you find any bugs or want to suggest improvements,
 
 ## License
 
-MIT License
+Apache License 2.0 - see the [LICENSE](LICENSE) file for details.
 
 ## More Projects and Information
 

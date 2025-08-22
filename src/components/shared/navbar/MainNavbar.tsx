@@ -1,9 +1,8 @@
 "use client";
-import logo from "@/assets/images/logo.svg";
 import { MenuIcon, X } from "lucide-react";
-import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
+import ThemeToggle from "../common/ThemeToggle";
 import Menu from "./Menu";
 import { menuItems } from "./MenuItems";
 
@@ -24,12 +23,13 @@ const MainNavbar: React.FC<MainNavbarProps> = ({ top, header, menu }) => {
             <div className="flex items-center  justify-between">
               <Link href="/" className="">
                 <div className="lg:w-[280px] text-md font-bold flex justify-start  items-center">
-                  <Image src={logo} width={80} height={80} alt="logo" />
-                  <h2 className="text-secondary lg:flex hidden">
+                  <h2 className="text-secondary lg:flex text-2xl">
                     Task Manager
                   </h2>
                 </div>
               </Link>
+
+              <ThemeToggle />
               {/* Toggle button for mobile menu */}
               <button
                 className="md:hidden text-black cursor-pointer transition duration-300"

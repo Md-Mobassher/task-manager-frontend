@@ -34,12 +34,12 @@ const DashboardCard: React.FC<DashboardCardProps> = ({
   const cardContent = (
     <Card
       className={cn(
-        "hover:shadow-lg transition-shadow duration-200 bg-white border-gray-300 p-0 m-0",
+        "hover:shadow-lg transition-shadow duration-200 bg-white dark:bg-gray-800 border-gray-300 p-0 m-0",
         className
       )}
     >
       <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
-        <CardTitle className="text-md md:text-lg font-semibold text-gray-800">
+        <CardTitle className="text-md md:text-lg font-semibold text-gray-800 dark:text-gray-200">
           {title}
         </CardTitle>
         {showIcon && Icon && (
@@ -51,7 +51,9 @@ const DashboardCard: React.FC<DashboardCardProps> = ({
       <CardContent>
         {variant === "stat" && (
           <>
-            <div className="text-2xl font-bold text-gray-900">{value}</div>
+            <div className="text-2xl font-bold text-gray-900 dark:text-gray-200">
+              {value}
+            </div>
             {/* {description && (
               <p className="text-xs text-gray-500 mt-1">{description}</p>
             )} */}
