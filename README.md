@@ -26,7 +26,21 @@ mdmobassherhossain1@gmail.com
 - Redux
 - Axios
 
-## Getting Started
+## Brief Explanation of Approach
+
+This Task Manager App is built using modern web technologies with a focus on user experience and performance. The application follows a component-based architecture using Next.js for server-side rendering and routing. State management is handled through Redux for predictable state updates, while Tailwind CSS provides a responsive and modern UI design. The app includes user authentication, task CRUD operations, and real-time updates with a clean, intuitive interface.
+
+## Time Taken to Complete
+
+**Total Development Time**: Approximately 3-4 hours
+
+- **Planning & Setup**: 30 minutes
+- **UI/UX Design**: 1-1.5 hours
+- **Core Functionality**: 1-1.5 hours
+- **Testing & Bug Fixes**: 30 minutes
+- **Deployment & Documentation**: 30 minutes
+
+## Setup Steps
 
 To get a local copy of the project up and running, follow these steps:
 
@@ -42,7 +56,9 @@ git clone <repository-link>
 cd <project_name>
 ```
 
-3. Please update the filename from `.env.example` to `.env` and Fill your own data
+3. **Environment Setup:**
+   - Copy `.env.example` to `.env`
+   - Fill in your own environment variables
 
 4. **Install Dependencies:**
 
@@ -62,7 +78,7 @@ or
 npm install
 ```
 
-5. **Start the Server:**
+5. **Start the Development Server:**
 
 ```shell
 pnpm dev
@@ -80,7 +96,7 @@ or
 npm run dev
 ```
 
-The server will be running at **`http://localhost:3000`** .
+The server will be running at **`http://localhost:3000`**.
 
 ## Contributing
 
