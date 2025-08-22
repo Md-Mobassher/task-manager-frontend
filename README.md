@@ -2,7 +2,7 @@
 
 ## Deployment
 
-- **Live Link**: [Live server link](https://task-management-frontend-4eu6176su.vercel.app)
+- **Live Link**: [Live server link](https://task-management-frontend-sage-nine.vercel.app)
 
 ## Login Credential
 
